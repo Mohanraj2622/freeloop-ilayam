@@ -53,1154 +53,1154 @@ function setupMediaSession() {
 const SONGS = [
   // 1 list
   {
-    title: "Aaacha-Paatcha-MassTamilan.com.mp3",
+    title: "Aaacha-Paatcha",
     artist: "Ilaiyaraaja",
     url: "Aaacha-Paatcha-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Aadidu Peyygaley.mp3",
+    title: "Aadidu Peyygaley",
     artist: "Ilaiyaraaja",
     url: "Aadidu Peyygaley.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Aalolam-Paadi-MassTamilan.com.mp3",
+    title: "Aalolam-Paadi",
     artist: "Ilaiyaraaja",
     url: "Aalolam-Paadi-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Aan-Pillai-Endralum-MassTamilan.com.mp3",
+    title: "Aan-Pillai-Endralum",
     artist: "Ilaiyaraaja",
     url: "Aan-Pillai-Endralum-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Aattu-Kutti-Muttai-Ittu.mp3",
+    title: "Aattu-Kutti-Muttai-Ittu",
     artist: "Ilaiyaraaja",
     url: "Aattu-Kutti-Muttai-Ittu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ada Nanachu Neeyachu.mp3",
+    title: "Ada Nanachu Neeyachu",
     artist: "Ilaiyaraaja",
     url: "Ada Nanachu Neeyachu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Adukku-Malli-MassTamilan.com.mp3",
+    title: "Adukku-Malli",
     artist: "Ilaiyaraaja",
     url: "Adukku-Malli-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Andharangam.mp3",
+    title: "Andharangam",
     artist: "Ilaiyaraaja",
     url: "Andharangam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Annai Thaalaattu Paada.mp3",
+    title: "Annai Thaalaattu Paada",
     artist: "Ilaiyaraaja",
     url: "Annai Thaalaattu Paada.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Anne Anne.mp3",
+    title: "Anne Anne",
     artist: "Ilaiyaraaja",
     url: "Anne Anne.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Antha-Nilavathan-MassTamilan.io.mp3",
+    title: "Antha-Nilavathan",
     artist: "Ilaiyaraaja",
     url: "Antha-Nilavathan-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Arul-Kann-Paarvai-MassTamilan.com.mp3",
+    title: "Arul-Kann-Paarvai",
     artist: "Ilaiyaraaja",
     url: "Arul-Kann-Paarvai-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Athu-Maathiram-MassTamilan.dev.mp3",
+    title: "Athu-Maathiram",
     artist: "Ilaiyaraaja",
     url: "Athu-Maathiram-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Chinna-Ponnu-Selai-MassTamilan.io.mp3",
+    title: "Chinna-Ponnu-Selai",
     artist: "Ilaiyaraaja",
     url: "Chinna-Ponnu-Selai-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Chinnamani Kuyile.mp3",
+    title: "Chinnamani Kuyile",
     artist: "Ilaiyaraaja",
     url: "Chinnamani Kuyile.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Chinnanjiru Kannu Rendum.mp3",
+    title: "Chinnanjiru Kannu Rendum",
     artist: "Ilaiyaraaja",
     url: "Chinnanjiru Kannu Rendum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Cholam-Vethakkayile.mp3",
+    title: "Cholam-Vethakkayile",
     artist: "Ilaiyaraaja",
     url: "Cholam-Vethakkayile.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Das-Das-Chinnappadas-MassTamilan.io.mp3",
+    title: "Das-Das-Chinnappadas",
     artist: "Ilaiyaraaja",
     url: "Das-Das-Chinnappadas-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Desamuthu.mp3",
+    title: "Desamuthu",
     artist: "Ilaiyaraaja",
     url: "Desamuthu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Devathai Ilam.mp3",
+    title: "Devathai Ilam",
     artist: "Ilaiyaraaja",
     url: "Devathai Ilam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Dharman Endru.mp3",
+    title: "Dharman Endru",
     artist: "Ilaiyaraaja",
     url: "Dharman Endru.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Dheivam Thanda.mp3",
+    title: "Dheivam Thanda",
     artist: "Ilaiyaraaja",
     url: "Dheivam Thanda.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Eley-Matchi-MassTamilan.com.mp3",
+    title: "Eley-Matchi",
     artist: "Ilaiyaraaja",
     url: "Eley-Matchi-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ellorum-Porandhome-MassTamilan.dev.mp3",
+    title: "Ellorum-Porandhome",
     artist: "Ilaiyaraaja",
     url: "Ellorum-Porandhome-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Endha-Poovilum-MassTamilan.dev.mp3",
+    title: "Endha-Poovilum",
     artist: "Ilaiyaraaja",
     url: "Endha-Poovilum-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Enna Paada (Sad).mp3",
+    title: "Enna Paada (Sad)",
     artist: "Ilaiyaraaja",
     url: "Enna Paada (Sad).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Enna Paada.mp3",
+    title: "Enna Paada",
     artist: "Ilaiyaraaja",
     url: "Enna Paada.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Enna Paada.mp3",
+    title: "Enna Paada",
     artist: "Ilaiyaraaja",
     url: "Enna Paada.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ennaal Mudiyathu.mp3",
+    title: "Ennaal Mudiyathu",
     artist: "Ilaiyaraaja",
     url: "Ennaal Mudiyathu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ennaiya.mp3",
+    title: "Ennaiya",
     artist: "Ilaiyaraaja",
     url: "Ennaiya.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ennakku Unnaicha.mp3",
+    title: "Ennakku Unnaicha",
     artist: "Ilaiyaraaja",
     url: "Ennakku Unnaicha.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ennenna Paada.mp3",
+    title: "Ennenna Paada",
     artist: "Ilaiyaraaja",
     url: "Ennenna Paada.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Eppadi Thorkin.mp3",
+    title: "Eppadi Thorkin",
     artist: "Ilaiyaraaja",
     url: "Eppadi Thorkin.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ethana Raathiri.mp3",
+    title: "Ethana Raathiri",
     artist: "Ilaiyaraaja",
     url: "Ethana Raathiri.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Gangai Aatril.mp3",
+    title: "Gangai Aatril",
     artist: "Ilaiyaraaja",
     url: "Gangai Aatril.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Idhayame.mp3",
+    title: "Idhayame",
     artist: "Ilaiyaraaja",
     url: "Idhayame.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Indha-Vazhkai.mp3",
+    title: "Indha-Vazhkai",
     artist: "Ilaiyaraaja",
     url: "Indha-Vazhkai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Indira Puthirana.mp3",
+    title: "Indira Puthirana",
     artist: "Ilaiyaraaja",
     url: "Indira Puthirana.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Iraivanai-Thedi-MassTamilan.com.mp3",
+    title: "Iraivanai-Thedi",
     artist: "Ilaiyaraaja",
     url: "Iraivanai-Thedi-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ithazh Inikka.mp3",
+    title: "Ithazh Inikka",
     artist: "Ilaiyaraaja",
     url: "Ithazh Inikka.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ithu Ilamai.mp3",
+    title: "Ithu Ilamai",
     artist: "Ilaiyaraaja",
     url: "Ithu Ilamai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kaathodu-Poovurasa-MassTamilan.dev.mp3",
+    title: "Kaathodu-Poovurasa",
     artist: "Ilaiyaraaja",
     url: "Kaathodu-Poovurasa-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kada Veedhi.mp3",
+    title: "Kada Veedhi",
     artist: "Ilaiyaraaja",
     url: "Kada Veedhi.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kadaloram-Kadaloram-MassTamilan.com.mp3",
+    title: "Kadaloram-Kadaloram",
     artist: "Ilaiyaraaja",
     url: "Kadaloram-Kadaloram-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kadavul-Padaippil.mp3",
+    title: "Kadavul-Padaippil",
     artist: "Ilaiyaraaja",
     url: "Kadavul-Padaippil.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kadhal Kasakkuthaiya.mp3",
+    title: "Kadhal Kasakkuthaiya",
     artist: "Ilaiyaraaja",
     url: "Kadhal Kasakkuthaiya.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kadhal-Oviyam-MassTamilan.io.mp3",
+    title: "Kadhal-Oviyam",
     artist: "Ilaiyaraaja",
     url: "Kadhal-Oviyam-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kalai Nera (Duet).mp3",
+    title: "Kalai Nera (Duet)",
     artist: "Ilaiyaraaja",
     url: "Kalai Nera (Duet).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kalai Nera (Male).mp3",
+    title: "Kalai Nera (Male)",
     artist: "Ilaiyaraaja",
     url: "Kalai Nera (Male).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kalloori Manavaraa.mp3",
+    title: "Kalloori Manavaraa",
     artist: "Ilaiyaraaja",
     url: "Kalloori Manavaraa.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kalyaana Chelai.mp3",
+    title: "Kalyaana Chelai",
     artist: "Ilaiyaraaja",
     url: "Kalyaana Chelai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanavugal.mp3",
+    title: "Kanavugal",
     artist: "Ilaiyaraaja",
     url: "Kanavugal.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanavugale-Kanavugale-MassTamilan.com.mp3",
+    title: "Kanavugale-Kanavugale",
     artist: "Ilaiyaraaja",
     url: "Kanavugale-Kanavugale-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanindhu Varum.mp3",
+    title: "Kanindhu Varum",
     artist: "Ilaiyaraaja",
     url: "Kanindhu Varum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanmaniyae-MassTamilan.com.mp3",
+    title: "Kanmaniyae",
     artist: "Ilaiyaraaja",
     url: "Kanmaniyae-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanne-Ithu-MassTamilan.com.mp3",
+    title: "Kanne-Ithu",
     artist: "Ilaiyaraaja",
     url: "Kanne-Ithu-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanni Ilam.mp3",
+    title: "Kanni Ilam",
     artist: "Ilaiyaraaja",
     url: "Kanni Ilam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kanni Thaene.mp3",
+    title: "Kanni Thaene",
     artist: "Ilaiyaraaja",
     url: "Kanni Thaene.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kattiloru-Singakkuttiyam-MassTamilan.dev.mp3",
+    title: "Kattiloru-Singakkuttiyam",
     artist: "Ilaiyaraaja",
     url: "Kattiloru-Singakkuttiyam-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kaveriye Kavikuyiley.mp3",
+    title: "Kaveriye Kavikuyiley",
     artist: "Ilaiyaraaja",
     url: "Kaveriye Kavikuyiley.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kichu-Kichu-MassTamilan.dev.mp3",
+    title: "Kichu-Kichu",
     artist: "Ilaiyaraaja",
     url: "Kichu-Kichu-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kodikatti Parakkura Raaja.mp3",
+    title: "Kodikatti Parakkura Raaja",
     artist: "Ilaiyaraaja",
     url: "Kodikatti Parakkura Raaja.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Konjum-Purave-MassTamilan.com.mp3",
+    title: "Konjum-Purave",
     artist: "Ilaiyaraaja",
     url: "Konjum-Purave-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kulikkum Pothile.mp3",
+    title: "Kulikkum Pothile",
     artist: "Ilaiyaraaja",
     url: "Kulikkum Pothile.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Kuyile Kuyile Poonguyile.mp3",
+    title: "Kuyile Kuyile Poonguyile",
     artist: "Ilaiyaraaja",
     url: "Kuyile Kuyile Poonguyile.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maalai-Nera-Kaatre-MassTamilan.dev.mp3",
+    title: "Maalai-Nera-Kaatre",
     artist: "Ilaiyaraaja",
     url: "Maalai-Nera-Kaatre-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maamaa Maalai.mp3",
+    title: "Maamaa Maalai",
     artist: "Ilaiyaraaja",
     url: "Maamaa Maalai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maanguyelum-Kizhiyum-MassTamilan.so.mp3",
+    title: "Maanguyelum-Kizhiyum",
     artist: "Ilaiyaraaja",
     url: "Maanguyelum-Kizhiyum-MassTamilan.so.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Machan Maattikittan.mp3",
+    title: "Machan Maattikittan",
     artist: "Ilaiyaraaja",
     url: "Machan Maattikittan.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Machanukku.mp3",
+    title: "Machanukku",
     artist: "Ilaiyaraaja",
     url: "Machanukku.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Madhavin-Kovilil-MassTamilan.dev.mp3",
+    title: "Madhavin-Kovilil",
     artist: "Ilaiyaraaja",
     url: "Madhavin-Kovilil-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maduran Oyilattam.mp3",
+    title: "Maduran Oyilattam",
     artist: "Ilaiyaraaja",
     url: "Maduran Oyilattam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maharani-Unnaithedi-MassTamilan.dev.mp3",
+    title: "Maharani-Unnaithedi",
     artist: "Ilaiyaraaja",
     url: "Maharani-Unnaithedi-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Malarthiruchi.mp3",
+    title: "Malarthiruchi",
     artist: "Ilaiyaraaja",
     url: "Malarthiruchi.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Mama Mama.mp3",
+    title: "Mama Mama",
     artist: "Ilaiyaraaja",
     url: "Mama Mama.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Mandhiram-Idhu-MassTamilan.com.mp3",
+    title: "Mandhiram-Idhu",
     artist: "Ilaiyaraaja",
     url: "Mandhiram-Idhu-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maniye-Manikuyile-MassTamilan.io.mp3",
+    title: "Maniye-Manikuyile",
     artist: "Ilaiyaraaja",
     url: "Maniye-Manikuyile-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Manjakkulichi.mp3",
+    title: "Manjakkulichi",
     artist: "Ilaiyaraaja",
     url: "Manjakkulichi.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Maths-Tough.mp3",
+    title: "Maths-Tough",
     artist: "Ilaiyaraaja",
     url: "Maths-Tough.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Mega Deepam.mp3",
+    title: "Mega Deepam",
     artist: "Ilaiyaraaja",
     url: "Mega Deepam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Megam-Karukkudhu-MassTamilan.com.mp3",
+    title: "Megam-Karukkudhu",
     artist: "Ilaiyaraaja",
     url: "Megam-Karukkudhu-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Munnae-Po-MassTamilan.so.mp3",
+    title: "Munnae-Po",
     artist: "Ilaiyaraaja",
     url: "Munnae-Po-MassTamilan.so.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Muthu Mani.mp3",
+    title: "Muthu Mani",
     artist: "Ilaiyaraaja",
     url: "Muthu Mani.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Muthumani Ther Irukku.mp3",
+    title: "Muthumani Ther Irukku",
     artist: "Ilaiyaraaja",
     url: "Muthumani Ther Irukku.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Naalum-Naalum-MassTamilan.com.mp3",
+    title: "Naalum-Naalum",
     artist: "Ilaiyaraaja",
     url: "Naalum-Naalum-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Naan Sonnal (Happy).mp3",
+    title: "Naan Sonnal (Happy)",
     artist: "Ilaiyaraaja",
     url: "Naan Sonnal (Happy).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Naan-Azhaikiren-MassTamilan.dev.mp3",
+    title: "Naan-Azhaikiren",
     artist: "Ilaiyaraaja",
     url: "Naan-Azhaikiren-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Naan Sonnal (Male).mp3",
+    title: "Naan Sonnal (Male)",
     artist: "Ilaiyaraaja",
     url: "Naan Sonnal (Male).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Naan-Thedum-Sevvanthi-Poovithu-MassTamilan.io.mp3",
+    title: "Naan-Thedum-Sevvanthi-Poovithu",
     artist: "Ilaiyaraaja",
     url: "Naan-Thedum-Sevvanthi-Poovithu-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nadhi-Odum-Karaiyoram-MassTamilan.com.mp3",
+    title: "Nadhi-Odum-Karaiyoram",
     artist: "Ilaiyaraaja",
     url: "Nadhi-Odum-Karaiyoram-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nammava Thappu Pannina.mp3",
+    title: "Nammava Thappu Pannina",
     artist: "Ilaiyaraaja",
     url: "Nammava Thappu Pannina.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nee-Kannil-Vaazhum-MassTamilan.dev.mp3",
+    title: "Nee-Kannil-Vaazhum",
     artist: "Ilaiyaraaja",
     url: "Nee-Kannil-Vaazhum-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Neeya Azhaithadhu.mp3",
+    title: "Neeya Azhaithadhu",
     artist: "Ilaiyaraaja",
     url: "Neeya Azhaithadhu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nethu-Oruthara-Oruthara-MassTamilan.io.mp3",
+    title: "Nethu-Oruthara-Oruthara",
     artist: "Ilaiyaraaja",
     url: "Nethu-Oruthara-Oruthara-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nillatha-Vennila-MassTamilan.com.mp3",
+    title: "Nillatha-Vennila",
     artist: "Ilaiyaraaja",
     url: "Nillatha-Vennila-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ninnukori Varanam.mp3",
+    title: "Ninnukori Varanam",
     artist: "Ilaiyaraaja",
     url: "Ninnukori Varanam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Nooru Vayasu Vaazhaveandum.mp3",
+    title: "Nooru Vayasu Vaazhaveandum",
     artist: "Ilaiyaraaja",
     url: "Nooru Vayasu Vaazhaveandum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oh Vennilave.mp3",
+    title: "Oh Vennilave",
     artist: "Ilaiyaraaja",
     url: "Oh Vennilave.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ohm Kousalya.mp3",
+    title: "Ohm Kousalya",
     artist: "Ilaiyaraaja",
     url: "Ohm Kousalya.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Onedrodu-Onedranaom-MassTamilan.dev.mp3",
+    title: "Onedrodu-Onedranaom",
     artist: "Ilaiyaraaja",
     url: "Onedrodu-Onedranaom-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ooty Kuliru.mp3",
+    title: "Ooty Kuliru",
     artist: "Ilaiyaraaja",
     url: "Ooty Kuliru.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Orey Raagam.mp3",
+    title: "Orey Raagam",
     artist: "Ilaiyaraaja",
     url: "Orey Raagam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru Kili.mp3",
+    title: "Oru Kili",
     artist: "Ilaiyaraaja",
     url: "Oru Kili.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru Koottin Kiligaldhaan.mp3",
+    title: "Oru Koottin Kiligaldhaan",
     artist: "Ilaiyaraaja",
     url: "Oru Koottin Kiligaldhaan.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru Moonu Mudichaaley.mp3",
+    title: "Oru Moonu Mudichaaley",
     artist: "Ilaiyaraaja",
     url: "Oru Moonu Mudichaaley.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru Pakkam Oru Nyaayam.mp3",
+    title: "Oru Pakkam Oru Nyaayam",
     artist: "Ilaiyaraaja",
     url: "Oru Pakkam Oru Nyaayam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru Poonga Vanam.mp3",
+    title: "Oru Poonga Vanam",
     artist: "Ilaiyaraaja",
     url: "Oru Poonga Vanam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru-Ganam-Oru-Yugamaga-MassTamilan.io.mp3",
+    title: "Oru-Ganam-Oru-Yugamaga",
     artist: "Ilaiyaraaja",
     url: "Oru-Ganam-Oru-Yugamaga-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru-Jeevan-Azhaithathu-MassTamilan.io.mp3",
+    title: "Oru-Jeevan-Azhaithathu",
     artist: "Ilaiyaraaja",
     url: "Oru-Jeevan-Azhaithathu-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Oru-Raagam-MassTamilan.com.mp3",
+    title: "Oru-Raagam-",
     artist: "Ilaiyaraaja",
     url: "Oru-Raagam-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Otti Vandha Singa Kutty.mp3",
+    title: "Otti Vandha Singa Kutty",
     artist: "Ilaiyaraaja",
     url: "Otti Vandha Singa Kutty.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Paakkurathum Muraikirathum.mp3",
+    title: "Paakkurathum Muraikirathum",
     artist: "Ilaiyaraaja",
     url: "Paakkurathum Muraikirathum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Paarthen Pon Manam.mp3",
+    title: "Paarthen Pon Manam",
     artist: "Ilaiyaraaja",
     url: "Paarthen Pon Manam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Pazhutha-Pazham-MassTamilan.dev.mp3",
+    title: "Pazhutha-Pazham",
     artist: "Ilaiyaraaja",
     url: "Pazhutha-Pazham-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Ponmaaney Ponmaaney.mp3",
+    title: "Ponmaaney Ponmaaney",
     artist: "Ilaiyaraaja",
     url: "Ponmaaney Ponmaaney.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poo-Choodum-MassTamilan.com.mp3",
+    title: "Poo-Choodum-",
     artist: "Ilaiyaraaja",
     url: "Poo-Choodum-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poojaiketha-Poovithu-MassTamilan.io.mp3",
+    title: "Poojaiketha-Poovithu",
     artist: "Ilaiyaraaja",
     url: "Poojaiketha-Poovithu-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poombarai-Vazhbavane-MassTamilan.so.mp3",
+    title: "Poombarai-Vazhbavane",
     artist: "Ilaiyaraaja",
     url: "Poombarai-Vazhbavane-MassTamilan.so.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poongum Aagaya Gangai.mp3",
+    title: "Poongum Aagaya Gangai",
     artist: "Ilaiyaraaja",
     url: "Poongum Aagaya Gangai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poove Eduthu.mp3",
+    title: "Poove Eduthu",
     artist: "Ilaiyaraaja",
     url: "Poove Eduthu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Poradada.mp3",
+    title: "Poradada",
     artist: "Ilaiyaraaja",
     url: "Poradada.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Raaja Raajathi.mp3",
+    title: "Raaja Raajathi",
     artist: "Ilaiyaraaja",
     url: "Raaja Raajathi.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Raathiri Neram.mp3",
+    title: "Raathiri Neram",
     artist: "Ilaiyaraaja",
     url: "Raathiri Neram.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Roja Ponthottam.mp3",
+    title: "Roja Ponthottam",
     artist: "Ilaiyaraaja",
     url: "Roja Ponthottam.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Roja Poo Adivanthathu.mp3",
+    title: "Roja Poo Adivanthathu",
     artist: "Ilaiyaraaja",
     url: "Roja Poo Adivanthathu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sa-Jinjini-MassTamilan.com.mp3",
+    title: "Sa-Jinjini",
     artist: "Ilaiyaraaja",
     url: "Sa-Jinjini-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sami-Kitte-Solli-MassTamilan.com.mp3",
+    title: "Sami-Kitte-Solli",
     artist: "Ilaiyaraaja",
     url: "Sami-Kitte-Solli-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Senthoora-Poove.mp3",
+    title: "Senthoora-Poove",
     artist: "Ilaiyaraaja",
     url: "Senthoora-Poove.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sevanthi-Poo.mp3",
+    title: "Sevanthi-Poo",
     artist: "Ilaiyaraaja",
     url: "Sevanthi-Poo.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Siruvani-Thanni-Kudichi-MassTamilan.io.mp3",
+    title: "Siruvani-Thanni-Kudichi-",
     artist: "Ilaiyaraaja",
     url: "Siruvani-Thanni-Kudichi-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sollivedu Velli Nilave.mp3",
+    title: "Sollivedu Velli Nilave",
     artist: "Ilaiyaraaja",
     url: "Sollivedu Velli Nilave.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sondhangale.mp3",
+    title: "Sondhangale",
     artist: "Ilaiyaraaja",
     url: "Sondhangale.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Sonna Paecha Kelu.mp3",
+    title: "Sonna Paecha Kelu",
     artist: "Ilaiyaraaja",
     url: "Sonna Paecha Kelu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thaalaattu-MassTamilan.dev.mp3",
+    title: "Thaalaattu",
     artist: "Ilaiyaraaja",
     url: "Thaalaattu-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thaen Aruviyil.mp3",
+    title: "Thaen Aruviyil",
     artist: "Ilaiyaraaja",
     url: "Thaen Aruviyil.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thakadhom Thakadhom.mp3",
+    title: "Thakadhom Thakadhom",
     artist: "Ilaiyaraaja",
     url: "Thakadhom Thakadhom.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thamaraikodi Thamaraikodi.mp3",
+    title: "Thamaraikodi Thamaraikodi",
     artist: "Ilaiyaraaja",
     url: "Thamaraikodi Thamaraikodi.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thappu Thappu.mp3",
+    title: "Thappu Thappu",
     artist: "Ilaiyaraaja",
     url: "Thappu Thappu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thathedutha (Happy).mp3",
+    title: "Thathedutha (Happy)",
     artist: "Ilaiyaraaja",
     url: "Thathedutha (Happy).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thathedutha (Sad).mp3",
+    title: "Thathedutha (Sad)",
     artist: "Ilaiyaraaja",
     url: "Thathedutha (Sad).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thedi-Thedi-MassTamilan.com.mp3",
+    title: "Thedi-Thedi",
     artist: "Ilaiyaraaja",
     url: "Thedi-Thedi-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thendral Kaatrea.mp3",
+    title: "Thendral Kaatrea",
     artist: "Ilaiyaraaja",
     url: "Thendral Kaatrea.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thillumullu Ulagatha.mp3",
+    title: "Thillumullu Ulagatha",
     artist: "Ilaiyaraaja",
     url: "Thillumullu Ulagatha.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thindaathuthey.mp3",
+    title: "Thindaathuthey",
     artist: "Ilaiyaraaja",
     url: "Thindaathuthey.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Thoongatha Vizhigal.mp3",
+    title: "Thoongatha Vizhigal",
     artist: "Ilaiyaraaja",
     url: "Thoongatha Vizhigal.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Un Paarvayil (Duet).mp3",
+    title: "Un Paarvayil (Duet)",
     artist: "Ilaiyaraaja",
     url: "Un Paarvayil (Duet).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Unakkum-Enakkum.mp3",
+    title: "Unakkum-Enakkum",
     artist: "Ilaiyaraaja",
     url: "Unakkum-Enakkum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Un Paarvayil (Male).mp3",
+    title: "Un Paarvayil (Male)",
     artist: "Ilaiyaraaja",
     url: "Un Paarvayil (Male).mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Unnaiyum Ennaiyum.mp3",
+    title: "Unnaiyum Ennaiyum",
     artist: "Ilaiyaraaja",
     url: "Unnaiyum Ennaiyum.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Unthan Rajiyathil.mp3",
+    title: "Unthan Rajiyathil",
     artist: "Ilaiyaraaja",
     url: "Unthan Rajiyathil.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Va Va Mysooru.mp3",
+    title: "Va Va Mysooru",
     artist: "Ilaiyaraaja",
     url: "Va Va Mysooru.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vaa Raja.mp3",
+    title: "Vaa Raja",
     artist: "Ilaiyaraaja",
     url: "Vaa Raja.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vaa Vaa Anbe Anbe.mp3",
+    title: "Vaa Vaa Anbe Anbe",
     artist: "Ilaiyaraaja",
     url: "Vaa Vaa Anbe Anbe.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vaakkapattu Valavi Pottu.mp3",
+    title: "Vaakkapattu Valavi Pottu",
     artist: "Ilaiyaraaja",
     url: "Vaakkapattu Valavi Pottu.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vaazhkayae-MassTamilan.com.mp3",
+    title: "Vaazhkayae-",
     artist: "Ilaiyaraaja",
     url: "Vaazhkayae-MassTamilan.com.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vambukaara Paatti.mp3",
+    title: "Vambukaara Paatti",
     artist: "Ilaiyaraaja",
     url: "Vambukaara Paatti.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vasamulla.mp3",
+    title: "Vasamulla",
     artist: "Ilaiyaraaja",
     url: "Vasamulla.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vatti-Edutha-MassTamilan.io.mp3",
+    title: "Vatti-Edutha",
     artist: "Ilaiyaraaja",
     url: "Vatti-Edutha-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vayalooru-Mayilaattam-MassTamilan.dev.mp3",
+    title: "Vayalooru-Mayilaattam",
     artist: "Ilaiyaraaja",
     url: "Vayalooru-Mayilaattam-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Veetukku-Veetukku-Vasapadi-MassTamilan.io.mp3",
+    title: "Veetukku-Veetukku-Vasapadi",
     artist: "Ilaiyaraaja",
     url: "Veetukku-Veetukku-Vasapadi-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Velli Nila.mp3",
+    title: "Velli Nila",
     artist: "Ilaiyaraaja",
     url: "Velli Nila.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Vethalai Vethalai.mp3",
+    title: "Vethalai Vethalai",
     artist: "Ilaiyaraaja",
     url: "Vethalai Vethalai.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Yaaradi-Naan-Thedum-MassTamilan.io.mp3",
+    title: "Yaaradi-Naan-Thedum",
     artist: "Ilaiyaraaja",
     url: "Yaaradi-Naan-Thedum-MassTamilan.io.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
  
   {
-    title: "Yethivecha.mp3",
+    title: "Yethivecha",
     artist: "Ilaiyaraaja",
     url: "Yethivecha.mp3",
     coverUrl: "https://example.com/cover1.jpg",
   },
   {
-    title: "Yetho-Ninaivugal-MassTamilan.dev.mp3",
+    title: "Yetho-Ninaivugal",
     artist: "Ilaiyaraaja",
     url: "Yetho-Ninaivugal-MassTamilan.dev.mp3",
     coverUrl: "https://example.com/cover1.jpg",
